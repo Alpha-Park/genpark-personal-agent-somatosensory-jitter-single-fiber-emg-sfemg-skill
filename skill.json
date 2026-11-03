@@ -1,0 +1,12 @@
+{
+  "name": "genpark-personal-agent-somatosensory-jitter-single-fiber-emg-sfemg-skill",
+  "version": "1.0.0",
+  "description": "Somatosensory Jitter Single Fiber EMG (SFEMG) skill for quantitative neuromuscular transmission safety margin evaluation and myasthenic transmission defect detection.",
+  "author": "Alpha-Park Inc.",
+  "license": "Apache-2.0",
+  "entrypoint": "mcp_server.py",
+  "tools": [
+    "compute_single_pair_jitter",
+    "evaluate_multi_pair_study"
+  ]
+}
